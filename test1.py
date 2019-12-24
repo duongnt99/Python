@@ -1,0 +1,6 @@
+string = input().split(";")
+width = float(string[0].split(": ")[1].strip("%"))
+height = float(string[1].split(": ")[1].strip("%"))
+left = float(string[2].split(": ")[1].strip("%"))
+top = float(string[3].split(": ")[1].strip("%"))
+print(width,height,left,top)

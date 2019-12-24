@@ -1,0 +1,34 @@
+Em đã làm 2 file Generator và file Player như đề bài đã yêu cầu ạ.
+
+*File Generator
+Với file Generator.py
+Với file Generator em đã sinh ra 12 file tương ứng với 12 nốt trong quãng 8:
+Tên các file tương ứng với các nốt của em là:
+	Đồ   - Do.wav
+	Đồ#  - Do1.wav
+	Rê   - Re.wav
+	Mi   - Mi.wav
+	Fa   - Fa.wav
+	Fa#  - Fa1.wav
+	Son  - Son.wav
+	Son# - Son1.wav
+	La   - La.wav
+	Si   - Si.wav
+	Si#  - Si1.wav
+	Đô   - Do2.wav
+Em tính tần số bằng công thức: f(nốt) = f(La)* (2^(vị trí nốt đó/12))
+Trong đó thì vị trí của nốt La em coi là 0 thì vị trí của nốt bắt đầu (Đồ) là -8 và tăng dần cho đến nốt kết thúc (Đô) với vị trí là 3
+
+*File Player
+Với file Player.py
+Khi thầy gõ tên file thì không cần phải gõ toàn bộ tên file với đuôi wav mà chỉ cần gõ tên file thôi ạ. (VD: Thay vì gõ Do.wav thì thầy chỉ cần gõ Do)
+
+Em có 2 sự lựa chọn khi bắt đầu:
+1. Lựa chọn 1 file để chơi và lặp đi lặp lại file đó
+	Khi gõ Enter liên tục thì file sẽ được chơi tiếp
+	Khi gõ 0 thì sẽ dừng chương trình
+2. Lựa chọn xong một file sẽ chọn một file khác để chơi tiếp
+	Khi nhập tên file -> Enter thì file sẽ được chơi
+	Khi không nhập tên file -> Enter thì sẽ thoát chương trình
+
+Em xin chân thành cảm ơn thầy ạ!
